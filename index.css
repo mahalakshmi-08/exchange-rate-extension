@@ -1,0 +1,63 @@
+h1{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: rgb(236, 199, 182);
+    text-align: center;
+}
+body {
+    background: url("https://images.unsplash.com/photo-1517999144091-3d9dca6d1e43?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=282&q=80");
+    width: 400px;
+    height: 100%;
+    margin: 0;
+    background-position: center;
+    background-size: cover;
+  }
+p{
+    font-size: 25px;
+    font-style: italic;
+    color: floralwhite;
+    text-align: center;
+}
+
+button{
+
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: #94a1aa;
+    color:black;
+    padding: 12px 24px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+
+}
+.outer-box {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 25px;
+    color: white;
+  }
+.inner-box{
+    display:flex;
+    flex-direction: column;
+    color:rgb(119, 226, 208);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+input {
+    border: 3px solid #94a1aa;
+    width: 40%;
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 25px;
+    background-image: url('flag.jpg');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding-left: 40px;
+  }
+

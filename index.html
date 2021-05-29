@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exchange Rates</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1> EXCHANGE RATES!</h1>
+    <marquee bgcolor="#94a1aa" color="white">Exchange rates in 2020 </marquee>
+<div class="outer-box">
+<div class="inner-box">
+    <div class="country">
+        Enter the source <br> country code:
+    </div>
+    <div class="input">
+        <input type="text" class="country-name" id="cname" />
+    </div>
+</div>
+    <div class="inner-box">
+    <div class="country">
+        Enter the destination <br> country code:
+    </div>
+    <div class="input">
+        <input type="text" class="country-name" id="cname1" onchange="myFunction()" />
+    </div>
+</div>
+</div>
+    <button class="btn" id="mybutton">Get exchange rate </button>
+    <div class="result">
+    <p>The exchange rate between <br> the two countries is:</p>
+    <p id= "res"><span class="results"></span></p>
+    <script src="index.js"></script>
+</body>
+</html>
