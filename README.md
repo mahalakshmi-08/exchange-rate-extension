@@ -1,3 +1,3 @@
-# exchange-rate-extension
+# Exchange-rate-extension
 Extension Rate Extension
-The project EXCHANGE RATES is based on exchange money rates. This project focuses on the money rates in various countries, Where the user enter the source country code and the destination country code then, the extension returns the exchange rate between the two countries based on the day to day stats.
+The Exchange Rates project is a web extension developed using Visual Studio Code. It allows users to easily retrieve and convert currency exchange rates based on real-time data. The goal of this project is to provide a user-friendly interface for quickly obtaining accurate and up-to-date exchange rates between different currencies.
